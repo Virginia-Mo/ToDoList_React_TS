@@ -1,0 +1,5 @@
+@use 'sass:color';
+
+$color: rgb(87, 114, 204);
+$color-dark: color.scale($color, $lightness: -20%);
+$color-light: color.scale($color, $lightness: 10%);

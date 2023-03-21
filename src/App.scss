@@ -1,0 +1,36 @@
+@use 'src/styles/vars' as v;
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap');
+
+
+html {
+    font-size: 10px;
+}
+body {
+    font-size: 1.6rem;
+    margin: 0;
+}
+.App {
+    background: rgb(61,37,246);
+    background: linear-gradient(171deg, rgba(61,37,246,0.9640231092436975) 2%, rgba(108,133,215,1) 49%, rgba(242,168,194,0.7763480392156863) 74%);
+    font-family: 'Klee One', cursive;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading {
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin: 3rem 0;
+    color: #fff;
+    z-index: 1;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        margin: 1.5rem 0;
+        font-size: 3rem;
+    }
+}
