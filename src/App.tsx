@@ -58,7 +58,7 @@ setTodosArray(active);
   return (
     <DragDropContext onDragEnd={onDragEnd}>
     <div className="App">
-    <span className="heading">My to do list</span>
+    <h1 className="heading">My to do list</h1>
     <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd}/>
     <TodoList todosArray={todosArray} 
     setTodosArray={setTodosArray} 
